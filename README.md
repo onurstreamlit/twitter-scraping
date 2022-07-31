@@ -1,5 +1,10 @@
-# deneme_project
-Coursera_example
-import pandas as pd
-import numpy as np
-print("My first project")
+# Twitter Scraping
+
+##Kurulum
+
+git clone https://github.com/onurstreamlit/twitter-scraping.git
+\
+cd twitter-scraping\
+pip3 install snscrape\
+python3 twitter_scraping_username.py\
+python3 twitter_scraping_query.py
