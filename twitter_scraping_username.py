@@ -20,3 +20,5 @@ os.system("snscrape --jsonl --max-results {} twitter-search 'from:{}'> user-twee
 tweets_df1 = pd.read_json('user-tweets.json', lines=True)
 
 tweets_df1.to_csv('user-tweets.csv', sep=',', index=False)
+
+print('İslem basariyla tamamlanmistir')
